@@ -1,6 +1,13 @@
 [core]
-    remote = ssh-storage
+    remote = remote_storage
+[cache]
+    ssh = ssh-storage
 ['remote "ssh-storage"']
-    url = ssh://192.168.6.192/home/almaz/potanin/MODEL_weights/DVC
-    user = almaz
+    url = ssh://almaz@192.168.6.192/home/almaz/potanin/MODEL_weights/DVC
     port = 65022
+['remote "datarepo"']
+    url = ssh://almaz@192.168.6.192/home/almaz/potanin/MODEL_weights/DVC
+['remote "sshcache"']
+    url = ssh://almaz@192.168.6.192/home/almaz/potanin/MODEL_weights/DVC
+['remote "remote_storage"']
+    url = /home/dev/potanin/DVC_total/dvc_remote/

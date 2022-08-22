@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dev/potanin/DVC_total/DVC/mlruns/0/0daadf4df05a4b14b19e3de815076350/artifacts
+end_time: 1661168874850
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 0daadf4df05a4b14b19e3de815076350
+run_uuid: 0daadf4df05a4b14b19e3de815076350
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661168874813
+status: 3
+tags: []
+user_id: dev

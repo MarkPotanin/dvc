@@ -18,11 +18,11 @@ model_param:
   max_target_length: 50 #64
   batch_size: 100
   model_name: "rut5_dalle_cut_finetuned_64_1024_5e5"
-  learning_rate: 0.00001
-  weight_decay: 0.01
+  learning_rate: 0.001
+  weight_decay: 0.1
   num_train_epochs: 1
   lr_scheduler_type: 'cosine_with_restarts'
-  warmup_steps: 100
+  warmup_steps: 10
   save_total_limit: 1
   
 reports:

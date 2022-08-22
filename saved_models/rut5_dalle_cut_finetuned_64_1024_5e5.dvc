@@ -1,5 +1,5 @@
 outs:
-- md5: 9854199d9bc0090c4380327d8e763cac.dir
-  size: 980439495
+- md5: 0371e3fede7e843fc09ee5900471aed7.dir
+  size: 980439430
   nfiles: 7
   path: rut5_dalle_cut_finetuned_64_1024_5e5
