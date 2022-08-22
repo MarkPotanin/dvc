@@ -1,0 +1,29 @@
+base:
+  project: ForumSum
+  random_state: 999
+load_data:
+  raw_dataset_tech: data/raw/full_df_smoted.csv
+  raw_dataset_business: data/raw/full_df_business.csv
+  processed_data: data/processed/data.csv
+split_data:
+  train_path: data/processed/train.csv
+  test_path: data/processed/test.csv
+  test_size: 0.1
+  
+model_dir: saved_models
+
+model_param:
+  model_checkpoint: 'cointegrated/rut5-base-absum'
+  max_input_length: 50 #1024
+  max_target_length: 50 #64
+  batch_size: 100
+  model_name: "rut5_dalle_cut_finetuned_64_1024_5e5"
+  learning_rate: 0.00001
+  weight_decay: 0.01
+  num_train_epochs: 1
+  lr_scheduler_type: 'cosine_with_restarts'
+  warmup_steps: 100
+  save_total_limit: 1
+  
+reports:
+  metrics: report/report.json

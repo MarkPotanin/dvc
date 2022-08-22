@@ -1,0 +1,6 @@
+[core]
+    remote = ssh-storage
+['remote "ssh-storage"']
+    url = ssh://192.168.6.192/home/almaz/potanin/MODEL_weights/DVC
+    user = almaz
+    port = 65022
